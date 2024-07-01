@@ -1,0 +1,42 @@
+.contactCardItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  padding: 15px;
+  border: 1px solid #000;
+  border-radius: 15px;
+}
+
+.contactCardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contactCardInfo {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.contactCardInfo p {
+  width: 220px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.contactCardBtn {
+  width: 100px;
+  height: 40px;
+  color: #fff;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 30px;
+  transition: background-color 250ms ease-in-out;
+}
+
+.contactCardBtn:hover,
+.contactCardBtn:focus {
+  background-color: #404bbf;
+}
